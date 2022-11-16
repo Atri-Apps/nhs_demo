@@ -1,0 +1,4 @@
+.idea/
+atri_app/
+controllers/**/atri.py
+.DS_Store
