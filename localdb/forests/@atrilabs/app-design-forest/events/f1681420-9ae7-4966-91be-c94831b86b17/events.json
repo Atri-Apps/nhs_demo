@@ -11486,5 +11486,20 @@
       }
     },
     "id": "d691db36-f14c-4153-aabc-d3f5ae48ac49"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onChange": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    },
+    "id": "fc22e908-8ccd-48ce-b315-f3e1e021414a"
   }
 ]
