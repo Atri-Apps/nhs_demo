@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8f9d98de29501975494e2142be0b74af4323df07d854e49f5db78e1a945a44d5"
+            "sha256": "23388ab5701cbfab6f1135becca9127f688656c62837536b87f2401772135268"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -134,11 +134,11 @@
         },
         "atri": {
             "hashes": [
-                "sha256:c3bf295922b250cec3890067c73354c6958a2de0ccfe4c3752c82025add9a033",
-                "sha256:cba47ee1c162062bc0010b9cad2d2873f83194245bb45e11580fcca9fac25b30"
+                "sha256:44ba4401718cf9eb430d3921dd92d7e69ea7ff2e18462a9b68fcf8a763a151f9",
+                "sha256:61e0965ee6aca1d89af88d13deaaa54e501653522fd4f267e83e7d8730819f35"
             ],
             "index": "pypi",
-            "version": "==0.0.84"
+            "version": "==0.0.78"
         },
         "atri-utils": {
             "hashes": [
@@ -177,7 +177,7 @@
                 "sha256:5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845",
                 "sha256:83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==2.1.1"
         },
         "click": {
@@ -193,7 +193,7 @@
                 "sha256:0f7569a4a6ff151958b64304071d370daa3243d15941a7beedf0c9fe5105603e",
                 "sha256:a851e51367fb93e9e1361732c1d60dab63eff98712e503ea7d92e6eccb109b4f"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4.0'",
+            "markers": "python_version >= '3.6' and python_version < '4'",
             "version": "==2.2.1"
         },
         "exceptiongroup": {
@@ -733,7 +733,7 @@
                 "sha256:600d3aefecce26d48d97eee936fdb66e4bc27f934c3ab6dd1e292c4f43946d90",
                 "sha256:fecfcc8cca110fda9d561cb83f1e97ecbb93c613ff857f655818839dac74ce90"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4.0'",
+            "markers": "python_version >= '3.6' and python_version < '4'",
             "version": "==1.10.0"
         },
         "requests": {
