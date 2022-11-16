@@ -27,6 +27,7 @@ def handle_event(at: Atri, req: Request, res: Response):
     performs some action such as click button.
     """
     if at.Dropdown1.onChange:
+        at.specialty.custom.text = at.Dropdown1.custom.selectedValue
         set_filter(at, at.Dropdown1.custom.selectedValue)
 
     pass
