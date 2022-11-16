@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "str": "@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap');\n",
+    "method": "css",
+    "imports": {
+      "fonts": [
+        {
+          "fontFamily": "Fira Sans",
+          "fontStyle": "normal",
+          "fontWeight": 400
+        },
+        {
+          "fontFamily": "Fira Sans",
+          "fontStyle": "normal",
+          "fontWeight": 500
+        },
+        {
+          "fontFamily": "Fira Sans",
+          "fontStyle": "normal",
+          "fontWeight": 600
+        },
+        {
+          "fontFamily": "Fira Sans",
+          "fontStyle": "normal",
+          "fontWeight": 700
+        }
+      ]
+    }
+  }
+]

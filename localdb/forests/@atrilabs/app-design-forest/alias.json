@@ -1,1 +1,7 @@
-{}
+{
+  "Flex": 8,
+  "TextBox": 4,
+  "Dropdown": 1,
+  "LineChart": 1,
+  "Table": 7
+}
