@@ -10266,5 +10266,20 @@
     "slice": {
       "alias": "procedures"
     }
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onChange": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    },
+    "id": "fc22e908-8ccd-48ce-b315-f3e1e021414a"
   }
 ]

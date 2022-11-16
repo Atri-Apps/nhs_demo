@@ -10,6 +10,7 @@ jsonpickle = "*"
 python-multipart = "*"
 atri-utils = "*"
 atri = "==0.0.78"
+pandas = "*"
 
 [dev-packages]
 

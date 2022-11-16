@@ -1,6 +1,7 @@
 from .atri import Atri
 from fastapi import Request, Response
 from atri_utils import *
+from backend.api import apply_dropdown_values, set_filter
 
 def init_state(at: Atri):
     """
@@ -11,15 +12,21 @@ def init_state(at: Atri):
     # describe column headers and the data type
     pass
 
+
 def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """
     This function is called whenever a user loads this route in the browser.
     """
+    apply_dropdown_values(at)
     pass
+
 
 def handle_event(at: Atri, req: Request, res: Response):
     """
     This function is called whenever an event is received. An event occurs when user
     performs some action such as click button.
     """
+    if at.Dropdown1.onChange:
+        set_filter(at, at.Dropdown1.custom.selectedValue)
+
     pass
