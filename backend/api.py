@@ -38,10 +38,10 @@ def set_line_chart_data(at: Atri, filtered_data):
 
 def set_rolling_12_month_data(at: Atri, filtered_data):
     at.ttm_episodes.custom.cols = [
-                                    {"field": "id", "headerName": "Rolling 12 month period comparison"},
-                                    {"field": "start_date", "headerName": "Oct 2020-Sep 2021"},
+                                    {"field": "id", "headerName": "Activity"},
+                                    {"field": "start_date", "headerName": "Oct 2020 - Sep 2021"},
                                     {"field": "end_date", "headerName": "Oct 2021 - Sep 2022"},
-                                    {"field": "percentage_change", "headerName": "Age", "type": "% Change"}
+                                    {"field": "percentage_change", "headerName": "% Change"}
                                     ]
 
     prep_data_1 = {'FCE':0, 'FCEs_With_Procedure':0, 'Ordinary_Admission_Episodes':0, 'FCE_DAY_CASES':0, 'FAE':0, 'EMERGENCY':0}
