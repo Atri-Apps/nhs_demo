@@ -77,9 +77,9 @@ def get_ttm_activity(filtered_data):
 
 def get_ytd_activity(filtered_data):
     cols = [
-        {"field": "id", "headerName": "Activity"},
-        {"field": "start_date", "headerName": "Apr 2021 - Sep 2021"},
-        {"field": "end_date", "headerName": "Apr 2021 - Sep 2022"},
+        {"field": "id", "headerName": "Activity", "width":250},
+        {"field": "start_date", "headerName": "Apr 2021 - Sep 2021", "width":200},
+        {"field": "end_date", "headerName": "Apr 2021 - Sep 2022", "width":200},
         {"field": "percentage_change", "headerName": "% Change"}
     ]
 
