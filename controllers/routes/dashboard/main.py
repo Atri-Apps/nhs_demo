@@ -27,7 +27,7 @@ def set_filter(at:Atri, selected_filter:str, flag:str):
             "fill":"#1E40AF"
         },
         "Not Attended":{
-            "fill":"#FDBA74"
+            "fill":"#FB923C"
         },
         "Canceled":{
             "fill":"#FACC15"
@@ -44,6 +44,7 @@ def set_filter(at:Atri, selected_filter:str, flag:str):
             "cy": "50%",  # center of the circle's y
             "showLabel": True,
             "animate": False,
+            "fill":"#FB923C"
         }
     ]
     at.procedures.custom.toolTip = {"show": True}
