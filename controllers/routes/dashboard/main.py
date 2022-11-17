@@ -37,18 +37,11 @@ def set_filter(at:Atri, selected_filter:str, flag:str):
     
     # FCEs with procedures
     at.procedures.custom.data = get_procedures(data[selected_filter])
-    # at.procedures.custom.options = [
-    #     # options for first circle
-    #     {
-    #         "cx": "50%",  # center of the circle's x
-    #         "cy": "50%",  # center of the circle's y
-    #         "showLabel": True,
-    #         "animate": False,
-    #         "fill":"#FB923C"
-    #     }
-    # ]
-    # at.procedures.custom.toolTip = {"show": True}
-    # at.procedures.custom.legend = {"show": True}
+    at.procedures.custom.options = {
+        "FCEs_with_Procedure":{
+            "fill":"#7DD3FC"
+        }
+    }
 
     # TTM activity
     at.ttm_episodes.custom.cols = get_ttm_activity(data[selected_filter])[0]
