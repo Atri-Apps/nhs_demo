@@ -41,7 +41,7 @@ def get_procedures(filtered_data):
         if i in get_specific_date_keys(21, ['JUL', 'AUG', 'SEP']):
             for k in prep_data.keys():
                 prep_data[k] += filtered_data[i][k]
-    prep_data['FCE_without_procedure'] = (prep_data['FCE'] - prep_data['FCEs_With_Procedure'])/prep_data['FCE']
+    prep_data['FCEs_without_procedure'] = (prep_data['FCE'] - prep_data['FCEs_With_Procedure'])/prep_data['FCE']
     prep_data['FCEs_With_Procedure'] = prep_data['FCEs_With_Procedure'] / prep_data['FCE']
     prep_data.pop('FCE')
     data = [
