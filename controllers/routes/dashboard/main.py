@@ -57,7 +57,6 @@ def init_state(at: Atri):
     The argument "at" is a dictionary that has initial values set from visual editor.
     Changing values in this dictionary will modify the initial state of the app.
     """
-    # describe column headers and the data type
     pass
 
 
@@ -65,7 +64,6 @@ def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """
     This function is called whenever a user loads this route in the browser.
     """
-    # Assign value to table
     set_filter(at, selected_filter="100 general surgery service", flag="page_request")
 
 
