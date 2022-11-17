@@ -14695,5 +14695,43 @@
       }
     },
     "id": "25db3a7e-3d1b-4517-9e1d-7f59d4ca3d00"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "external",
+                "url": "",
+                "target": "_blank"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "49908a2d-d0ca-4715-9d08-78c94032cb4f"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "external",
+                "url": "https://github.com/Atri-Apps/nhs_demo",
+                "target": "_blank"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "49908a2d-d0ca-4715-9d08-78c94032cb4f"
   }
 ]
