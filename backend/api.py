@@ -27,9 +27,9 @@ def get_appointments(filtered_data):
     for month in months:
         canceled_app = filtered_data[month]["Total_Appointments"] - filtered_data[month]["Attended_Appointments"] - filtered_data[month]["DNA_Appointments"]
         data_dict = {"x": month, 
-                    "Attended_Appointments": filtered_data[month]["Attended_Appointments"],
-                    "DNA_Appointments": filtered_data[month]["DNA_Appointments"],
-                    "Canceled_Appointments": canceled_app
+                    "Attended": filtered_data[month]["Attended_Appointments"],
+                    "Not Attended": filtered_data[month]["DNA_Appointments"],
+                    "Canceled": canceled_app
                     }
         app_dict.append(data_dict)
     return app_dict
