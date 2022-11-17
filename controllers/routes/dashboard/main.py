@@ -22,8 +22,19 @@ def set_filter(at:Atri, selected_filter:str, flag:str):
     # Appointments
     app_data = get_data(file_name='app_data.json')
     at.appointments.custom.data = get_appointments(app_data[selected_filter])
+    at.appointments.custom.options = {
+        "Attended":{
+            "fill":"#1E40AF"
+        },
+        "Not Attended":{
+            "fill":"#FDBA74"
+        },
+        "Canceled":{
+            "fill":"#FACC15"
+        }
+    }
     at.appointments.custom.stacked = True
-
+    
     # FCEs with procedures
     at.procedures.custom.data = get_procedures(data[selected_filter])
     at.procedures.custom.options = [
