@@ -17,13 +17,14 @@ def get_activity(filtered_data):
     for i, j in filtered_data.items():
         j['x'] = i
         fin_dic.append({a: b for a, b in j.items() if a != 'FCEs_With_Procedure'})
-
     return fin_dic
 
 
 def get_appointments(filtered_data):
     app_dict=[]
-    months = ['31JUL22', '31AUG22', '30SEP22']
+    months = ['30APR22', '31MAY22', '30JUN22', '31JUL22', '31AUG22', '30SEP22']
+    # months = ['31JUL22', '31AUG22', '30SEP22']
+
     for month in months:
         canceled_app = filtered_data[month]["Total_Appointments"] - filtered_data[month]["Attended_Appointments"] - filtered_data[month]["DNA_Appointments"]
         data_dict = {"x": month, 
@@ -59,14 +60,14 @@ def get_ttm_activity(filtered_data):
             {"field": "percentage_change", "headerName": "% Change", "align":"center"}
             ]
 
-    prep_data_1 = {'FCE':0, 'Ordinary_Admission_Episodes':0, 'FCE_DAY_CASES':0, 'FAE':0, 'EMERGENCY':0}
+    prep_data_1 = {'FCE':0, 'Ordinary_Admission_Episodes':0, 'FCE_DAY_CASES':0, 'FAE':0, 'Emergency':0}
     for i,j in filtered_data.items():
         if i in get_specific_date_keys(20, ['OCT', 'NOV', 'DEC']) + get_specific_date_keys(21, ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP']):
             for k in prep_data_1.keys():
                 prep_data_1[k] += filtered_data[i][k]
 
     prep_data_2 = {'FCE': 0, 'Ordinary_Admission_Episodes': 0, 'FCE_DAY_CASES': 0, 'FAE': 0,
-                   'EMERGENCY': 0}
+                   'Emergency': 0}
     for i, j in filtered_data.items():
         if i in get_specific_date_keys(21, ['OCT', 'NOV', 'DEC']) + get_specific_date_keys(22, ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP']):
             for k in prep_data_2.keys():
@@ -86,7 +87,7 @@ def get_ytd_activity(filtered_data):
     ]
 
     prep_data_1 = {'FCE': 0, 'Ordinary_Admission_Episodes': 0, 'FCE_DAY_CASES': 0, 'FAE': 0,
-                   'EMERGENCY': 0}
+                   'Emergency': 0}
     for i, j in filtered_data.items():
         if i in get_specific_date_keys(21, ['APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP']):
             for k in prep_data_1.keys():
@@ -94,7 +95,7 @@ def get_ytd_activity(filtered_data):
                 prep_data_1[k] += filtered_data[i][k]
 
     prep_data_2 = {'FCE': 0, 'Ordinary_Admission_Episodes': 0, 'FCE_DAY_CASES': 0, 'FAE': 0,
-                   'EMERGENCY': 0}
+                   'Emergency': 0}
     for i, j in filtered_data.items():
         if i in get_specific_date_keys(22, ['APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP']):
             for k in prep_data_2.keys():
@@ -143,7 +144,7 @@ def internal_processing(data: pd.DataFrame):
                        'Ordinary_Admission_Episodes':i[5],
                        'FCE_DAY_CASES': i[6],
                        'FAE': i[7],
-                       'EMERGENCY': i[8]
+                       'Emergency': i[8]
                        }
         dic[str(i[1]) + ' ' + i[2].lower()][i[0]] = dic_inter
     with open("data/data.json", "w") as outfile:
