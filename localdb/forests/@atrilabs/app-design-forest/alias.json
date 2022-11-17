@@ -1,6 +1,6 @@
 {
   "Flex": 50,
-  "TextBox": 60,
+  "TextBox": 61,
   "Dropdown": 2,
   "LineChart": 3,
   "Table": 12,
@@ -8,5 +8,6 @@
   "BarChart": 7,
   "Div": 1,
   "Slider": 1,
-  "Image": 2
+  "Image": 2,
+  "Link": 1
 }
