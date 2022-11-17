@@ -12975,5 +12975,368 @@
       }
     },
     "id": "b83e4fa1-1c63-453d-a795-a8618ef14d38"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 1
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 12
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 120
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 1200
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 12000
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 1200
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 100
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 10
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 1
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 15
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 150
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 1500
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 1
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 17
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 170
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 1700
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 1
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 18
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 180
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 1800
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 1
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 17
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 175
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 1750
+        }
+      }
+    },
+    "id": "e0cd8ecf-9445-4ab1-8ce6-3edd454d90b9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 5
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 50
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 500
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 6
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 60
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 600
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 5
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 50
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 500
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
   }
 ]
