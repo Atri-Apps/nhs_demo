@@ -45,8 +45,9 @@ def get_procedures(filtered_data):
     prep_data['FCEs_With_Procedure'] = prep_data['FCEs_With_Procedure'] / prep_data['FCE']
     prep_data.pop('FCE')
     data = [
-        [{"name": i, "value": j} for i, j in prep_data.items()]
+        [{"name": i, "value": float(f'{j:.2}')} for i, j in prep_data.items()]
     ]
+    
     return data
 
 
