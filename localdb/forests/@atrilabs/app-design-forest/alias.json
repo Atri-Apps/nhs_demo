@@ -1,12 +1,12 @@
 {
-  "Flex": 18,
-  "TextBox": 12,
-  "Dropdown": 1,
-  "LineChart": 2,
-  "Table": 10,
+  "Flex": 49,
+  "TextBox": 60,
+  "Dropdown": 2,
+  "LineChart": 3,
+  "Table": 12,
   "PieChart": 3,
-  "BarChart": 5,
+  "BarChart": 7,
   "Div": 1,
   "Slider": 1,
-  "Image": 1
+  "Image": 2
 }

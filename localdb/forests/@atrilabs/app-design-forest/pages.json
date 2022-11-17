@@ -6,5 +6,9 @@
   "f1681420-9ae7-4966-91be-c94831b86b17": {
     "name": "dashboard",
     "route": "/dashboard"
+  },
+  "cbaefc3f-ae1a-4945-a4be-053990115d7e": {
+    "name": "legend",
+    "route": "/legend"
   }
 }
