@@ -58,13 +58,13 @@ def get_ttm_activity(filtered_data):
             {"field": "percentage_change", "headerName": "% Change"}
             ]
 
-    prep_data_1 = {'FCE':0, 'FCEs_With_Procedure':0, 'Ordinary_Admission_Episodes':0, 'FCE_DAY_CASES':0, 'FAE':0, 'EMERGENCY':0}
+    prep_data_1 = {'FCE':0, 'Ordinary_Admission_Episodes':0, 'FCE_DAY_CASES':0, 'FAE':0, 'EMERGENCY':0}
     for i,j in filtered_data.items():
         if i in get_specific_date_keys(20, ['OCT', 'NOV', 'DEC']) + get_specific_date_keys(21, ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP']):
             for k in prep_data_1.keys():
                 prep_data_1[k] += filtered_data[i][k]
 
-    prep_data_2 = {'FCE': 0, 'FCEs_With_Procedure': 0, 'Ordinary_Admission_Episodes': 0, 'FCE_DAY_CASES': 0, 'FAE': 0,
+    prep_data_2 = {'FCE': 0, 'Ordinary_Admission_Episodes': 0, 'FCE_DAY_CASES': 0, 'FAE': 0,
                    'EMERGENCY': 0}
     for i, j in filtered_data.items():
         if i in get_specific_date_keys(21, ['OCT', 'NOV', 'DEC']) + get_specific_date_keys(22, ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP']):
