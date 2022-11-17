@@ -13338,5 +13338,115 @@
       }
     },
     "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 6
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 60
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 600
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "width": ""
+        }
+      }
+    },
+    "id": "19ca610f-72ef-44d5-a11d-de25c0390c28"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 7
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 70
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 700
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 8
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 80
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "chartWidth": 800
+        }
+      }
+    },
+    "id": "3592936d-be75-47a0-a1d7-3c358d6dad4c"
   }
 ]
