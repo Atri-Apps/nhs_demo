@@ -77,10 +77,10 @@ def get_ttm_activity(filtered_data):
 
 def get_ytd_activity(filtered_data):
     cols = [
-        {"field": "id", "headerName": "Year to date comparison"},
-        {"field": "start_date", "headerName": "April 2021-Sep 2021"},
-        {"field": "end_date", "headerName": "April 2021 - Sep 2022"},
-        {"field": "percentage_change", "headerName": "Age", "type": "% Change"}
+        {"field": "id", "headerName": "Activity"},
+        {"field": "start_date", "headerName": "Apr 2021 - Sep 2021"},
+        {"field": "end_date", "headerName": "Apr 2021 - Sep 2022"},
+        {"field": "percentage_change", "headerName": "% Change"}
     ]
 
     prep_data_1 = {'FCE': 0, 'Ordinary_Admission_Episodes': 0, 'FCE_DAY_CASES': 0, 'FAE': 0,
