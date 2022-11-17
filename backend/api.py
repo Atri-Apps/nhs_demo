@@ -14,7 +14,7 @@ def get_data(file_name):
 
 def get_activity(filtered_data):
     fin_dic = []
-    for i, j in filtered_data.items():
+    for i, j in dict(reversed(filtered_data.items())).items():
         j['x'] = i
         fin_dic.append({a: b for a, b in j.items() if a != 'FCEs_With_Procedure'})
     return fin_dic
