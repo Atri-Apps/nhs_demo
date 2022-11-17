@@ -52,7 +52,7 @@ def get_procedures(filtered_data):
 
 def get_ttm_activity(filtered_data):
     cols = [
-            {"field": "id", "headerName": "Activity", "width":200},
+            {"field": "id", "headerName": "Activity", "width":250},
             {"field": "start_date", "headerName": "Oct 2020 - Sep 2021", "width":200},
             {"field": "end_date", "headerName": "Oct 2021 - Sep 2022", "width":200},
             {"field": "percentage_change", "headerName": "% Change"}
