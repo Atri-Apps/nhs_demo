@@ -37,19 +37,18 @@ def get_appointments(filtered_data):
 
 
 def get_procedures(filtered_data):
-    prep_data = {'FCE': 0, 'FCEs_With_Procedure': 0}
-    for i, j in filtered_data.items():
-        if i in get_specific_date_keys(21, ['JUL', 'AUG', 'SEP']):
-            for k in prep_data.keys():
-                prep_data[k] += filtered_data[i][k]
-    prep_data['FCEs_without_procedure'] = (prep_data['FCE'] - prep_data['FCEs_With_Procedure'])/prep_data['FCE']
-    prep_data['FCEs_With_Procedure'] = prep_data['FCEs_With_Procedure'] / prep_data['FCE']
-    prep_data.pop('FCE')
-    data = [
-        [{"name": i, "value": float(f'{j:.2}')} for i, j in prep_data.items()]
-    ]
+    proc_dict=[]
+    months = ['30APR22', '31MAY22', '30JUN22', '31JUL22', '31AUG22', '30SEP22']
+    # months = ['31JUL22', '31AUG22', '30SEP22']
+
+    for month in months:
+        pct_fce = 100*(filtered_data[month]["FCEs_With_Procedure"]/filtered_data[month]["FCE"])
+        data_dict = {"x": month, 
+                    "FCEs_with_Procedure": f'{pct_fce:,.2f}',
+                    }
+        proc_dict.append(data_dict)
     
-    return data
+    return proc_dict
 
 
 def get_ttm_activity(filtered_data):
