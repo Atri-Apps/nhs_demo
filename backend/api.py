@@ -53,9 +53,9 @@ def get_procedures(filtered_data):
 def get_ttm_activity(filtered_data):
     cols = [
             {"field": "id", "headerName": "Activity", "width":250},
-            {"field": "start_date", "headerName": "Oct 2020 - Sep 2021", "width":200},
-            {"field": "end_date", "headerName": "Oct 2021 - Sep 2022", "width":200},
-            {"field": "percentage_change", "headerName": "% Change"}
+            {"field": "start_date", "headerName": "Oct 2020 - Sep 2021", "width":200, "align":"center"},
+            {"field": "end_date", "headerName": "Oct 2021 - Sep 2022", "width":200, "align":"center"},
+            {"field": "percentage_change", "headerName": "% Change", "align":"center"}
             ]
 
     prep_data_1 = {'FCE':0, 'Ordinary_Admission_Episodes':0, 'FCE_DAY_CASES':0, 'FAE':0, 'EMERGENCY':0}
@@ -70,17 +70,18 @@ def get_ttm_activity(filtered_data):
         if i in get_specific_date_keys(21, ['OCT', 'NOV', 'DEC']) + get_specific_date_keys(22, ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP']):
             for k in prep_data_2.keys():
                 prep_data_2[k] += filtered_data[i][k]
-
-    rows = [{"id": i, "start_date":prep_data_1[i], "end_date": prep_data_2[i], "percentage_change":(prep_data_2[i]-prep_data_1[i])*100/prep_data_1[i]} for i in prep_data_1.keys()]
-    
+    rows = [{"id": i, 
+            "start_date":f'{prep_data_1[i]:,.0f}', 
+            "end_date": f'{prep_data_2[i]:,.0f}',
+            "percentage_change":f'{(prep_data_2[i]-prep_data_1[i])/prep_data_1[i]:.1%}'} for i in prep_data_1.keys()]
     return cols, rows
 
 def get_ytd_activity(filtered_data):
     cols = [
         {"field": "id", "headerName": "Activity", "width":250},
-        {"field": "start_date", "headerName": "Apr 2021 - Sep 2021", "width":200},
-        {"field": "end_date", "headerName": "Apr 2021 - Sep 2022", "width":200},
-        {"field": "percentage_change", "headerName": "% Change"}
+        {"field": "start_date", "headerName": "Apr 2021 - Sep 2021", "width":200, "align":"center"},
+        {"field": "end_date", "headerName": "Apr 2021 - Sep 2022", "width":200, "align":"center"},
+        {"field": "percentage_change", "headerName": "% Change", "align":"center"}
     ]
 
     prep_data_1 = {'FCE': 0, 'Ordinary_Admission_Episodes': 0, 'FCE_DAY_CASES': 0, 'FAE': 0,
@@ -98,8 +99,10 @@ def get_ytd_activity(filtered_data):
             for k in prep_data_2.keys():
                 prep_data_2[k] += filtered_data[i][k]
 
-    rows = [{"id": i, "start_date": prep_data_1[i], "end_date": prep_data_2[i],
-                                    "percentage_change": (prep_data_2[i] - prep_data_1[i]) * 100 / prep_data_1[i]} for i
+    rows = [{"id": i, 
+            "start_date": f'{prep_data_1[i]:,.0f}', 
+            "end_date": f'{prep_data_2[i]:,.0f}',
+            "percentage_change": f'{(prep_data_2[i]-prep_data_1[i])/prep_data_1[i]:.1%}'} for i
                                    in prep_data_1.keys()]
     return cols, rows
 
