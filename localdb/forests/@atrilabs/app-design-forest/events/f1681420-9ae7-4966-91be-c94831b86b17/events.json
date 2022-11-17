@@ -14673,5 +14673,27 @@
       }
     },
     "id": "196da0e5-ee06-4cdc-a2e1-ba3811d5a52a"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "text": "🤒 Appointments (last 6 months)"
+        }
+      }
+    },
+    "id": "a6c058ab-8c45-4cc6-8ad0-bff351752e76"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "text": "💉 % FCEs with procedures  (last 6 months)"
+        }
+      }
+    },
+    "id": "25db3a7e-3d1b-4517-9e1d-7f59d4ca3d00"
   }
 ]
