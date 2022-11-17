@@ -1,5 +1,26 @@
 {
   "GitHub logo.png": {
     "mime": "image/png"
+  },
+  "image_1.jpeg": {
+    "mime": "image/jpeg"
+  },
+  "img_2.jpeg": {
+    "mime": "image/jpeg"
+  },
+  "img_3.jpeg": {
+    "mime": "image/jpeg"
+  },
+  "bulb.jpeg": {
+    "mime": "image/jpeg"
+  },
+  "logo.png": {
+    "mime": "image/png"
+  },
+  "logo_new.png": {
+    "mime": "image/png"
+  },
+  "logo_2.png": {
+    "mime": "image/png"
   }
 }
